@@ -1,0 +1,2324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-------------font-awsome--------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-------------font-awsome--------->
+        <!-------------flat icon----------->
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+        <!-------------flat icon----------->
+        <!-------------custom-css---------->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-------------custom-css---------->
+        <!--------------icon--------------->
+        <link rel="icon" href="./images/icons/clothefy_icon.png">
+        <!--------------icon--------------->
+        <title>Clothefy - Favourites</title>
+    </head>
+
+<body>
+
+        <!----------------------pre-loader--------------------->
+
+        <div class="preloader-div" data-pre-loader>
+
+            <div class="loader-content">
+
+                <div class="loader">
+                    <div class="load"></div>
+                    <div class="load"></div>
+                    <div class="load"></div>
+                </div>
+        
+                <div class="bottom-logo">
+        
+                    <div class="logo-div">
+                        <img src="./images/logo/logo-2.png" alt="logo" class="loader-img">
+                    </div>
+        
+                </div>
+
+            </div>
+
+        </div>
+
+        <!---------x------------pre-loader----------x---------->
+ 
+        <div class="overlay" data-overlay></div>  <!-----------for dark overlay on top------>
+
+
+        <!--------------header--------------->
+
+        <header class="favourite-header">             <!------------topper----------->
+
+            <div class="header-top">        <!-------top actions------->
+    
+                <div class="container">
+    
+                    <ul class="header-social-continer">
+    
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="https://www.twitter.com/" target="_blank" class="social-link">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="https://www.linkedin.com/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+    
+                    </ul>
+    
+                    <div class="header-alert-news">
+                        <p>
+                            <b>Free Shipping</b>
+                            This week Order Over - $50
+                        </p>
+                    </div>
+    
+                    <div class="header-top-actions">
+                        <select name="currency">
+                            <option value="usd">USD &dollar;</option>
+                            <option value="eur">EUR &euro;</option>
+                        </select>
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="header-main">       <!---------header logo search bar----->
+    
+                <div class="container">
+    
+                    <a href="./index.html" class="header-logo">
+                        <img src="./images/logo/logo-2.png" alt="clothefy_logo" >
+                    </a>
+    
+                    <div class="header-search-container">
+    
+                        <input type="search" name="search" class="search-field" placeholder="Enter product name">
+    
+                        <button class="search-btn">
+                            <i class="fi fi-rs-search"></i>
+                        </button>
+    
+                    </div>
+    
+                    <div class="header-user-actions">
+    
+                        <button title="Profile" class="action-btn">
+                            <i class="fi fi-rs-user"></i>
+                        </button>
+    
+                        <a href="./cart.html" style="color: #283849;">
+                            <button title="Bag" class="action-btn">
+                                <i class="fi fi-rs-shopping-bag"></i>
+                                <span class="count">0</span>
+                            </button>
+                        </a>
+    
+                        <a href="./favourite.html" style="color: #283849;">
+                            <button title="Favourite" class="action-btn" >
+                            <i class="fi fi-rs-heart"></i></a>
+                            <span class="count" data-count-number>0</span>
+                            </button>
+                        </a>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <nav class="desktop-navigation-menu">           <!---------menu-------->
+    
+                <div class="container">
+    
+                    <ul class="desktop-menu-category-list">
+    
+                        <li class="menu-category">
+                            <a href="./index.html" class="menu-title">Home</a>
+                        </li>
+    
+                        <li class="menu-category">
+                            <a href="#" class="menu-title">Category</a>
+                        
+                            <div class="dropdown-panel">
+    
+                                <ul class="dropdown-panel-list">
+    
+                                    <li class="menu-title">
+                                        <a href="#">Electronics</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Desktop</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Laptop</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Smartphone</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Keyboard</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Mouse</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">
+                                            <img src="./images/electronics-banner-2.jpg" alt="electronics_banner2" width="250" height="120">
+                                        </a>
+                                    </li>
+    
+                                </ul>
+    
+                                <ul class="dropdown-panel-list">
+    
+                                    <li class="menu-title">
+                                        <a href="#">Men's</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Formal</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Casual</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Sports</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Jacket</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Sunglasses</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">
+                                            <img src="./images/mens-banner.jpg" alt="mens_banner" width="250" height="120">
+                                        </a>
+                                    </li>
+    
+                                </ul>
+    
+                                <ul class="dropdown-panel-list">
+    
+                                    <li class="menu-title">
+                                        <a href="#">Women's</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Formal</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Casual</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Cosmetics</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Perfume</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Bags</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">
+                                            <img src="./images/womens-banner.jpg" alt="womens_banner" width="250" height="120">
+                                        </a>
+                                    </li>
+    
+                                </ul>
+    
+                                <ul class="dropdown-panel-list">
+    
+                                    <li class="menu-title">
+                                        <a href="#">Electronics</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Smart TV</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Micro Oven</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Refrigerator</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Microphone</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">Headphone</a>
+                                    </li>
+    
+                                    <li class="panel-list-item">
+                                        <a href="#">
+                                            <img src="./images/electronics-banner-1.jpg" alt="welectronics_banner1" width="250" height="120">
+                                        </a>
+                                    </li>
+    
+                                </ul>
+    
+                            </div>
+    
+                        </li>
+    
+                        <li class="menu-category">
+                            <a href="#" class="menu-title">Men's</a>
+    
+                            <ul class="dropdown-list">
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Shirt</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Jeans</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Wallet</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Shoes</a>
+                                </li>
+    
+                            </ul>
+    
+                        </li>
+    
+                        <li class="menu-category">
+                            <a href="#" class="menu-title">Women's</a>
+    
+                            <ul class="dropdown-list">
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Frock</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Dress</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Necklace</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Makeup kit</a>
+                                </li>
+    
+                            </ul>
+    
+                        </li>
+    
+                        <li class="menu-category">
+                            <a href="#" class="menu-title">Jewelry</a>
+    
+                            <ul class="dropdown-list">
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Couple Rings</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Earrings</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Bracelets</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Necklace</a>
+                                </li>
+    
+                            </ul>
+    
+                        </li>
+    
+                        <li class="menu-category">
+                            <a href="#" class="menu-title">Perfume</a>
+    
+                            <ul class="dropdown-list">
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Deodorant</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Clothes Perfume</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Flower Fragrence</a>
+                                </li>
+    
+                                <li class="dropdown-item">
+                                    <a href="#">Air Freshner</a>
+                                </li>
+    
+                            </ul>
+    
+                        </li>
+    
+                        <li class="menu-category">
+                            <a href="./index.html" class="menu-title">Blog</a>
+                        </li>
+    
+                        <li class="menu-category">
+                            <a href="./offers.html" class="menu-title">Hot Offers</a>
+                        </li>
+    
+                    </ul>
+    
+                </div>
+    
+            </nav>
+    
+            <div class="mobile-bottom-navigation">      <!-----------mobile menu icon-------->
+    
+                <a href="./index.html" style="color: #283849;">
+                    <button class="action-btn">
+                        <i class="fi fi-rs-home"></i>
+                    </button>
+                </a>
+    
+                <a href="./cart.html" style="color: #283849;">
+                <button class="action-btn">
+                    <i class="fi fi-rs-shopping-bag"></i>
+                    <span class="count">0</span>
+                </button>
+                </a>
+    
+                <button class="action-btn" data-mobile-category-open-btn>
+                    <i class="fi fi-rs-apps"></i>
+                </button>
+    
+                <a href="./favourite.html" style="color: #283849;">
+                    <button class="action-btn">
+                        <i class="fi fi-rs-heart"></i>
+                        <span class="count" data-count-number>0</span>
+                    </button>
+                </a>
+    
+                <button class="action-btn" data-mobile-menu-open-btn>
+                    <i class="fi fi-rs-burger-menu"></i>
+                </button>
+    
+            </div>
+    
+            <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>    <!---------mobile menu---------->
+    
+                <div class="menu-top">
+                    <h2 class="menu-title">Menu</h2>
+    
+                    <button class="menu-close-btn" data-mobile-menu-close-btn>
+                        <i class="fi fi-rs-cross"></i>
+                    </button>
+                </div>
+    
+                <ul class="mobile-menu-category-list">
+    
+                    <li class="menu-category">
+                        <a href="./index.html" class="menu-title">Home</a>
+                    </li>
+    
+                    <li class="menu-category">
+    
+                        <buttoon class="accordion-menu" data-according-btn>
+    
+                            <p class="menu-title">Men's</p>
+    
+                            <div>
+                                <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                            </div>
+    
+                        </buttoon>
+    
+                        <ul class="submenu-category-list" data-accordion>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Shirt</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Jeans</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Wallet</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Shoes</a>
+                            </li>
+    
+                        </ul>
+    
+                    </li>
+    
+                    <li class="menu-category">
+    
+                        <buttoon class="accordion-menu" data-according-btn>
+    
+                            <p class="menu-title">Women's</p>
+    
+                            <div>
+                                <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                            </div>
+    
+                        </buttoon>
+    
+                        <ul class="submenu-category-list" data-accordion>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Frock</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Dress</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Necklace</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Makeup kit</a>
+                            </li>
+    
+                        </ul>
+    
+                    </li>
+    
+                    <li class="menu-category">
+    
+                        <buttoon class="accordion-menu" data-according-btn>
+    
+                            <p class="menu-title">Jewelry</p>
+    
+                            <div>
+                                <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                            </div>
+    
+                        </buttoon>
+    
+                        <ul class="submenu-category-list" data-accordion>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Couple Rings</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Earrings</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Bracelets</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Necklace</a>
+                            </li>
+    
+                        </ul>
+    
+                    </li>
+    
+                    <li class="menu-category">
+    
+                        <buttoon class="accordion-menu" data-according-btn>
+    
+                            <p class="menu-title">Perfume</p>
+    
+                            <div>
+                                <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                            </div>
+    
+                        </buttoon>
+    
+                        <ul class="submenu-category-list" data-accordion>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Deodorant</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Clothes Perfum</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Flower Fragrence</a>
+                            </li>
+    
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Air Freshner</a>
+                            </li>
+    
+                        </ul>
+    
+                    </li>
+    
+                    <li class="menu-category">
+                        <a href="./index.html" class="menu-title">Blog</a>
+                    </li>
+    
+                    <li class="menu-category">
+                        <a href="./offers.html" class="menu-title">Hot Offers</a>
+                    </li>
+    
+                </ul>
+    
+                <div class="menu-bottom">
+    
+                    <ul class="menu-social-container">
+    
+                        <li >
+                            <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+    
+                        <li >
+                            <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+    
+                        <li >
+                            <a href="https://www.twitter.com/" target="_blank" class="social-link">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+    
+                        <li >
+                            <a href="https://www.linkedin.com/" target="_blank" class="social-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+    
+                    </ul>
+    
+                </div>
+    
+            </nav>
+    
+        </header>
+    
+        <!------x-------header-------x------->
+
+
+        <!---------------main---------------->
+
+        <main class="favourite-main">
+
+
+                        <!--------------------product----------------->
+
+            <div class="product-container">
+
+                    <div class="container">
+                
+                            <!----------sidebar------------>
+                            <div class="sidebar has-scrollbar" data-mobile-category>
+                
+                                        <div class="sidebar-category">
+                
+                                            <div class="sidebar-top">
+                                                <h2 class="sidebar-title">Category</h2>
+                
+                                                <button class="sidebar-close-btn" data-mobile-category-close-btn>
+                                                    <i class="fi fi-rs-cross"></i>
+                                                </button>
+                
+                                            </div>
+                
+                                            <ul class="sidebar-menu-category-list">
+                
+                                                <li class="sidebar-menu-category">
+                
+                                                    <button class="sidebar-accordion-menu" data-according-btn>
+                
+                                                        <div class="menu-title-flex">
+                
+                                                            <img src="./images/icons/dress.svg" alt="clothes" width="20" height="20" class="menu-title-img">
+                
+                                                            <p class="menu-title">Clothes</p>
+                
+                                                        </div>
+                
+                                                        <div>
+                                                            <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                                            <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                                                        </div>
+                
+                                                    </button>
+                
+                                                    <ul class="sidebar-submenu-category-list" data-accordion>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Shirt</p>
+                
+                                                                <data value="250" class="stock" title="Available stock">250</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Shorts & Jeans</p>
+                
+                                                                <data value="100" class="stock" title="Available stock">100</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Jacket</p>
+                
+                                                                <data value="70" class="stock" title="Available stock">70</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Dress & Frock</p>
+                
+                                                                <data value="90" class="stock" title="Available stock">90</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                    </ul>
+                
+                                                </li>
+                
+                                                <li class="sidebar-menu-category">
+                
+                                                    <button class="sidebar-accordion-menu" data-according-btn>
+                
+                                                        <div class="menu-title-flex">
+                
+                                                            <img src="./images/icons/shoes.svg" alt="shoes" width="20" height="20" class="menu-title-img">
+                
+                                                            <p class="menu-title">Footwear</p>
+                
+                                                        </div>
+                
+                                                        <div>
+                                                            <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                                            <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                                                        </div>
+                
+                                                    </button>
+                
+                                                    <ul class="sidebar-submenu-category-list" data-accordion>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Sports</p>
+                
+                                                                <data value="40" class="stock" title="Available stock">40</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Formal</p>
+                
+                                                                <data value="100" class="stock" title="Available stock">100</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Casual</p>
+                
+                                                                <data value="30" class="stock" title="Available stock">30</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Safety shoes</p>
+                
+                                                                <data value="25" class="stock" title="Available stock">25</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                    </ul>
+                
+                                                </li>
+                
+                                                <li class="sidebar-menu-category">
+                
+                                                    <button class="sidebar-accordion-menu" data-according-btn>
+                
+                                                        <div class="menu-title-flex">
+                
+                                                            <img src="./images/icons/jewelry.svg" alt="jewelry" width="20" height="20" class="menu-title-img">
+                
+                                                            <p class="menu-title">Jewelry</p>
+                
+                                                        </div>
+                
+                                                        <div>
+                                                            <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                                            <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                                                        </div>
+                
+                                                    </button>
+                
+                                                    <ul class="sidebar-submenu-category-list" data-accordion>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Necklace</p>
+                
+                                                                <data value="80" class="stock" title="Available stock">80</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Earrings</p>
+                
+                                                                <data value="120" class="stock" title="Available stock">120</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Couple Rings</p>
+                
+                                                                <data value="65" class="stock" title="Available stock">65</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Bracelets</p>
+                
+                                                                <data value="90" class="stock" title="Available stock">90</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                    </ul>
+                
+                                                </li>
+                
+                                                <li class="sidebar-menu-category">
+                
+                                                    <button class="sidebar-accordion-menu" data-according-btn>
+                
+                                                        <div class="menu-title-flex">
+                
+                                                            <img src="./images/icons/perfume.svg" alt="perfume" width="20" height="20" class="menu-title-img">
+                
+                                                            <p class="menu-title">Perfum</p>
+                
+                                                        </div>
+                
+                                                        <div>
+                                                            <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                                            <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                                                        </div>
+                
+                                                    </button>
+                
+                                                    <ul class="sidebar-submenu-category-list" data-accordion>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Deodorant</p>
+                
+                                                                <data value="80" class="stock" title="Available stock">80</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Flower Fragrence</p>
+                
+                                                                <data value="100" class="stock" title="Available stock">100</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Air Freshner</p>
+                
+                                                                <data value="85" class="stock" title="Available stock">55</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Body Spray</p>
+                
+                                                                <data value="150" class="stock" title="Available stock">150</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                    </ul>
+                
+                                                </li>
+                
+                                                <li class="sidebar-menu-category">
+                
+                                                    <button class="sidebar-accordion-menu" data-according-btn>
+                
+                                                        <div class="menu-title-flex">
+                
+                                                            <img src="./images/icons/cosmetics.svg" alt="cosmetics" width="20" height="20" class="menu-title-img">
+                
+                                                            <p class="menu-title">Cosmetics</p>
+                
+                                                        </div>
+                
+                                                        <div>
+                                                            <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                                            <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                                                        </div>
+                
+                                                    </button>
+                
+                                                    <ul class="sidebar-submenu-category-list" data-accordion>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Shampo</p>
+                
+                                                                <data value="60" class="stock" title="Available stock">60</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Nail Polish</p>
+                
+                                                                <data value="70" class="stock" title="Available stock">70</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Body Wash</p>
+                
+                                                                <data value="85" class="stock" title="Available stock">85</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Makeup kit</p>
+                
+                                                                <data value="100" class="stock" title="Available stock">100</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                    </ul>
+                
+                                                </li>
+                
+                                                <li class="sidebar-menu-category">
+                
+                                                    <button class="sidebar-accordion-menu" data-according-btn>
+                
+                                                        <div class="menu-title-flex">
+                
+                                                            <img src="./images/icons/glasses.svg" alt="glasses" width="20" height="20" class="menu-title-img">
+                
+                                                            <p class="menu-title">Glasses</p>
+                
+                                                        </div>
+                
+                                                        <div>
+                                                            <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                                            <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                                                        </div>
+                
+                                                    </button>
+                
+                                                    <ul class="sidebar-submenu-category-list" data-accordion>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Sunglasses</p>
+                
+                                                                <data value="120" class="stock" title="Available stock">120</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Lenses</p>
+                
+                                                                <data value="50" class="stock" title="Available stock">50</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                    </ul>
+                
+                                                </li>
+                
+                                                <li class="sidebar-menu-category">
+                
+                                                    <button class="sidebar-accordion-menu" data-according-btn>
+                
+                                                        <div class="menu-title-flex">
+                
+                                                            <img src="./images/icons/bag.svg" alt="Bags" width="20" height="20" class="menu-title-img">
+                
+                                                            <p class="menu-title">Bags</p>
+                
+                                                        </div>
+                
+                                                        <div>
+                                                            <i class="fi  fi-rs-caret-circle-down add-icon"></i>
+                                                            <i class="fi fi-rs-caret-circle-up remove-icon"></i>
+                                                        </div>
+                
+                                                    </button>
+                
+                                                    <ul class="sidebar-submenu-category-list" data-accordion>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Shopping Bag</p>
+                
+                                                                <data value="150" class="stock" title="Available stock">150</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Parse</p>
+                
+                                                                <data value="100" class="stock" title="Available stock">100</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Wallet</p>
+                
+                                                                <data value="100" class="stock" title="Available stock">100</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                        <li class="sidebar-submenu-category">
+                
+                                                            <a href="#" class="sidebar-submenu-title">
+                
+                                                                <p class="product-name">Gym Backpack</p>
+                
+                                                                <data value="30" class="stock" title="Available stock">30</data>
+                                                                
+                                                            </a>
+                                                            
+                                                        </li>
+                
+                                                    </ul>
+                
+                                                </li>
+                
+                                            </ul>
+                
+                                        </div>
+                
+                                        <div class="product-showcase">
+                
+                                            <h3 class="showcase-heading">Best sellers</h3>
+                
+                                            <div class="showcase-wrapper">
+                
+                                                <div class="showcase-container">
+                
+                                                    <div class="showcase">
+                
+                                                        <a href="#" class="showcase-img-box">
+                
+                                                            <img src="./images/products/1.jpg" class="showcase-img" width="75" height="75">
+                
+                                                        </a>
+                
+                                                        <div class="showcase-content">
+                
+                                                            <a href="#"><h4 class="showcase-title">Baby Fabric Shoes</h4></a>
+                
+                                                            <div class="showcase-rating">
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                            </div>
+                
+                                                            <div class="price-box">
+                
+                                                                <del>$6.00</del>
+                                                                <p class="price">$5.00</p>
+                
+                                                            </div>
+                
+                                                        </div>
+                
+                                                    </div>
+                
+                                                    <div class="showcase">
+                
+                                                        <a href="#" class="showcase-img-box">
+                
+                                                            <img src="./images/products/2.jpg" class="showcase-img" width="75" height="75">
+                
+                                                        </a>
+                
+                                                        <div class="showcase-content">
+                
+                                                            <a href="#"><h4 class="showcase-title">Men's Hoodies T-Shirt</h4></a>
+                
+                                                            <div class="showcase-rating">
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star-sharp-half-stroke"></i>
+                                                            </div>
+                
+                                                            <div class="price-box">
+                
+                                                                <del>$15.00</del>
+                                                                <p class="price">$10.00</p>
+                
+                                                            </div>
+                
+                                                        </div>
+                
+                                                    </div>
+                
+                                                    <div class="showcase">
+                
+                                                        <a href="#" class="showcase-img-box">
+                
+                                                            <img src="./images/products/3.jpg" class="showcase-img" width="75" height="75">
+                
+                                                        </a>
+                
+                                                        <div class="showcase-content">
+                
+                                                            <a href="#"><h4 class="showcase-title">Girl's T-Shirt</h4></a>
+                
+                                                            <div class="showcase-rating">
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star-sharp-half-stroke"></i>
+                                                            </div>
+                
+                                                            <div class="price-box">
+                
+                                                                <del>$10.00</del>
+                                                                <p class="price">$5.00</p>
+                
+                                                            </div>
+                
+                                                        </div>
+                
+                                                    </div>
+                
+                                                    <div class="showcase">
+                
+                                                        <a href="#" class="showcase-img-box">
+                
+                                                            <img src="./images/products/4.jpg" class="showcase-img" width="75" height="75">
+                
+                                                        </a>
+                
+                                                        <div class="showcase-content">
+                
+                                                            <a href="#"><h4 class="showcase-title">Woolen Hat For Men</h4></a>
+                
+                                                            <div class="showcase-rating">
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                                <i class="fi fi-ss-star"></i>
+                                                            </div>
+                
+                                                            <div class="price-box">
+                
+                                                                <del>$15.00</del>
+                                                                <p class="price">$12.00</p>
+                
+                                                            </div>
+                
+                                                        </div>
+                
+                                                    </div>
+                
+                                                </div>
+                
+                                            </div>
+                
+                                        </div>
+                
+                            </div>
+                            <!----x-----sidebar----x------->
+                
+                            <!-----------product----------->
+                
+                            <div class="product-box">
+                            
+                                    
+                                        <!-------------product-grid----------------->
+                            
+                                        <div class="product-main">
+                            
+                                                        <h2 id="favourites" class="title">Favourites</h2>
+                            
+                                                        <div class="product-grid">
+
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/jacket-7.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge">15%</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action first-showcase-heart" data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Jacket</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Men's Winter Leather Jacket</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star-sharp-half-stroke"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$60.00</p>
+                                                                        <del>$75.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/shirt-3.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle black">Sale</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action second-showcase-heart" data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Shirt</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Pure Garment dyed cotton shirt</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$45.00</p>
+                                                                        <del>$60.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/jacket-8.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action third-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Jacket</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Men's Premium Solstice Jacket</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star-sharp-half-stroke"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$65.00</p>
+                                                                        <del>80.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/clothes-5.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle teal">New!</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action fourth-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Skirt</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Floral-print silk midi skirt</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$25.00</p>
+                                                                        <del>$40.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/shoe-6.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action five-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Casual</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Casual Men's brown shoes</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$99.00</p>
+                                                                        <del>$120.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/watch-5.jpeg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle black">Sale</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action six-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Watches</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Pocket watch - Black</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$120.00</p>
+                                                                        <del>$150.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/watch-6.jpeg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle teal">New!</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action seven-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Watches</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Smart watch vital plus</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$99.00</p>
+                                                                        <del>$120.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/party-wear-2.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle black">Sale</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action eight-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Party Wear</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Women's party wear shoes</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$25.00</p>
+                                                                        <del>$35.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/jacket-9.jpeg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle black">Sale</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action nine-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Jacket</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Women's winter leather jacket</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$40.00</p>
+                                                                        <del>$55.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/sports-2.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle black">Sale</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action ten-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Sports</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Trekking & Running shoes</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star-sharp-half-stroke"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$60.00</p>
+                                                                        <del>$70.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/shoe-7.jpeg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action eleven-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Formal</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">Men's formal leather shoes</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$58.00</p>
+                                                                        <del>$75.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                            <div class="showcase">
+                            
+                                                                <div class="showcase-banner">
+                            
+                                                                    <div class="showcase-banner-div">
+                                                                        <img src="./images/products/shorts-3.jpg" width="300"  alt="mens leather jacket" class="product-img default">
+                                                                    </div>
+                            
+                                                                    <p class="showcase-badge angle black">Sale</p>
+                            
+                                                                    <div class="showcase-action">
+                            
+                                                                        <button class="btn-action twelve-showcase-heart"  data-heart-btn>
+                                                                            <i class="fi fi-rs-heart"></i>
+                                                                        </button>
+                                                                        
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-eye"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-arrows-repeat"></i>
+                                                                        </button>
+                            
+                                                                        <button class="btn-action">
+                                                                            <i class="fi fi-rs-shopping-bag-add"></i>
+                                                                        </button>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                                <div class="showcase-content">
+                            
+                                                                    <a href="#" class="showcase-category">Shorts</a>
+                            
+                                                                    <a href="#"><h2 class="showcase-title">soft cotton shorts</h2></a>
+                            
+                                                                    <div class="showcase-rating">
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-ss-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                        <i class="fi fi-rs-star"></i>
+                                                                    </div>
+                            
+                                                                    <div class="price-box">
+                                                                        <p class="price">$55.00</p>
+                                                                        <del>$80.00</del>
+                                                                    </div>
+                            
+                                                                </div>
+                            
+                                                            </div>
+                            
+                                                        </div>
+                            
+                                        </div>
+                            
+                                        <!------x------product-grid--------x-------->
+                            
+                            </div>
+                
+                            <!-----x-----product-----x----->
+                
+                    </div>
+                
+            </div>
+            
+                        <!---------x----------product--------x-------->
+
+
+        </main>
+
+        <!------x--------main-------x-------->
+
+
+        <!----------------footer------------->
+
+        <footer class="favourite-footer">
+
+            <div class="footer-container">
+    
+                <div class="footer-category">
+    
+                    <div class="container">
+        
+                        <h2 class="footer-category-title">Brand Directory</h2>
+        
+                        <div class="footer-category-box">
+        
+                            <h3 class="category-box-title">Fashion :</h3>
+        
+                            <a href="#" class="footer-category-link">T-Shirt</a>
+                            <a href="#" class="footer-category-link">Shirts</a>
+                            <a href="#" class="footer-category-link">Jeans</a>
+                            <a href="#" class="footer-category-link">Jacket</a>
+                            <a href="#" class="footer-category-link">Dress & Frock</a>
+                            <a href="#" class="footer-category-link">Innerwear</a>
+                            <a href="#" class="footer-category-link">Hosiery</a>
+        
+                        </div>
+        
+                        <div class="footer-category-box">
+        
+                            <h3 class="category-box-title">Jewelry :</h3>
+        
+                            <a href="#" class="footer-category-link">Necklace</a>
+                            <a href="#" class="footer-category-link">Earrings</a>
+                            <a href="#" class="footer-category-link">Couple Rings</a>
+                            <a href="#" class="footer-category-link">Crystal</a>
+                            <a href="#" class="footer-category-link">Nosepin</a>
+                            <a href="#" class="footer-category-link">Chain</a>
+                            <a href="#" class="footer-category-link">Bracelets</a>
+        
+                        </div>
+        
+                        <div class="footer-category-box">
+        
+                            <h3 class="category-box-title">Cosmetics :</h3>
+        
+                            <a href="#" class="footer-category-link">Shampo</a>
+                            <a href="#" class="footer-category-link">Conditioner</a>
+                            <a href="#" class="footer-category-link">Body Wash</a>
+                            <a href="#" class="footer-category-link">Makeup kit</a>
+                            <a href="#" class="footer-category-link">Perfum</a>
+                            <a href="#" class="footer-category-link">Body Soap</a>
+                            <a href="#" class="footer-category-link">Hair Gel</a>
+                            <a href="#" class="footer-category-link">Hair Colors</a>
+                            <a href="#" class="footer-category-link">Skin loson</a>
+                            <a href="#" class="footer-category-link">Scurb</a>
+        
+                        </div>
+        
+                        <div class="footer-category-box">
+        
+                            <h3 class="category-box-title">Footwear :</h3>
+        
+                            <a href="#" class="footer-category-link">Sports</a>
+                            <a href="#" class="footer-category-link">Formal</a>
+                            <a href="#" class="footer-category-link">Boots</a>
+                            <a href="#" class="footer-category-link">Casual</a>
+                            <a href="#" class="footer-category-link">Safety Shoes</a>
+                            <a href="#" class="footer-category-link">Party Wear Shoes</a>
+                            <a href="#" class="footer-category-link">Firstcopy</a>
+                            <a href="#" class="footer-category-link">Branded</a>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+                <div class="footer-nav">
+        
+                    <div class="container">
+        
+                        <ul class="footer-nav-list">
+        
+                            <li class="footer-nav-item">
+                                <h2 class="nav-title">Popular Category</h2>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Fashion</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Cosmetic</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Electronics</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Health</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Watches</a>
+                            </li>
+        
+                        </ul>
+        
+                        <ul class="footer-nav-list">
+        
+                            <li class="footer-nav-item">
+                                <h2 class="nav-title">Products</h2>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">New Products</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Best Sales</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Contact Us</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Sitemap</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Price Drops</a>
+                            </li>
+        
+                        </ul>
+        
+                        <ul class="footer-nav-list">
+        
+                            <li class="footer-nav-item">
+                                <h2 class="nav-title">Our Company</h2>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">About Us</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Delivery</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Secure Payment</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Legal Notice</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Terms & Conditions</a>
+                            </li>
+        
+                        </ul>
+        
+                        <ul class="footer-nav-list">
+        
+                            <li class="footer-nav-item">
+                                <h2 class="nav-title">Services</h2>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Worldwide Delivery</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">New Products</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Price Drops</a>
+                            </li>
+        
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">Best Support</a>
+                            </li>
+        
+                        </ul>
+        
+                        <ul class="footer-nav-list">
+        
+                            <li class="footer-nav-item">
+                                <h2 class="nav-title">Contact</h2>
+                            </li>
+        
+                            <li class="footer-nav-item flex">
+        
+                                <div class="icon-box">
+                                    <i class="fi fi-rs-marker"></i>
+                                </div>
+        
+                                <address class="content">
+                                    State - M/22,
+                                    Gulshan, Dhaka - 1212
+                                </address>
+        
+                            </li>
+        
+                            <li class="footer-nav-item flex">
+        
+                                <div class="icon-box">
+                                    <i class="fi fi-rs-phone-call"></i>
+                                </div>
+        
+                                <a href="tel:+8801408077177" class="footer-nav-link extra">(+880) 1408077177</a>
+        
+                            </li>
+        
+                            <li class="footer-nav-item flex">
+        
+                                <div class="icon-box">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+        
+                                <a href="mailto:mdfaisalafrid@gmail.com" class="footer-nav-link">mdfaisalafrid@gmail.com</a>
+        
+                            </li>
+        
+                        </ul>
+        
+                        <ul class="footer-nav-list">
+                            
+                            <li class="footer-nav-item">
+        
+                                <h2 class="nav-title">Follow Us</h2>
+        
+                            </li>
+        
+                            <li>
+        
+                                <ul class="social-link">
+        
+                                    <li class="footer-nav-item">
+                                        <a href="https://www.facebook.com/" target="_blank" class="footer-nav-link">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                    </li>
+        
+                                    <li class="footer-nav-item">
+                                        <a href="https://www.instagram.com/" target="_blank" class="footer-nav-link">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+        
+                                    <li class="footer-nav-item">
+                                        <a href="https://www.twitter.com/" target="_blank" class="footer-nav-link">
+                                            <i class="fa-brands fa-x-twitter"></i>
+                                        </a>
+                                    </li>
+        
+                                    <li class="footer-nav-item">
+                                        <a href="https://www.linkedin.com/" target="_blank" class="footer-nav-link">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                    </li>
+        
+                                </ul>
+        
+                            </li>
+        
+                        </ul>
+        
+                    </div>
+        
+                </div>
+        
+                <div class="footer-bottom">
+        
+                    <div class="container">
+        
+                        <img src="./images/payment.png" alt="payment image" class="payment-img">
+        
+                        <div class="copyright">
+                            <p class="copy-text">Copyright <span class="copy-sym">&copy;</span> 2024 <a class="web" href="index.html">Clothefy</a> | All Rights Reserved</p>
+        
+                            <p class="developer">Design & Developed By <a href="https://mdfaisalyousufafrid.vercel.app/" target="_blank">Afrid</a></p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+    
+            </div>
+    
+        </footer>
+
+        <!--------x-------footer------x------>
+
+
+    <!-------------custom js----------->
+    <script src="./js/favourite.js" defer></script>
+
+    <script type="text/javascript">
+
+        var preloader = document.querySelector('[data-pre-loader]');
+
+        window.addEventListener('load', function(){
+
+            preloader.classList.add('hide');
+
+        })
+
+    </script>
+
+    <!-------------custom js----------->
+    
+</body>
+</html>
