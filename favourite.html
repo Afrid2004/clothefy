@@ -17,6 +17,12 @@
         <!--------------icon--------------->
         <link rel="icon" href="./images/icons/clothefy_icon.png">
         <!--------------icon--------------->
+        <script>
+        var images = document.querySelectorAll('img');
+        images.forEach((image) => {
+            image.setAttribute('loading' , 'lazy');
+        })
+        </script>
         <title>Clothefy - Favourites</title>
     </head>
 
@@ -2314,11 +2320,6 @@
 
             preloader.classList.add('hide');
 
-        })
-
-        var images = document.querySelectorAll('img');
-        images.forEach((image) => {
-            image.setAttribute('loading' , 'lazy');
         })
 
     </script>
